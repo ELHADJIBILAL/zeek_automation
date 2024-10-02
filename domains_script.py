@@ -8,7 +8,7 @@ import time
 # Get yesterday's date in the format 'YYYY-MM-DD'
 yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
 
-log_folder = f"/opt/zeek/logs/{yesterady}"
+log_folder = f"/opt/zeek/logs/{yesterday}"
 output_file = "/opt/zeek/logs/domains.txt"
 malicious_output_file = "/opt/zeek/logs/malicious_domains.txt"
 domains = set()
