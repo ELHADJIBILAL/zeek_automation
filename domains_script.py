@@ -17,7 +17,7 @@ domains = set()
 popular_domains = {
     "google", "cloudflare", "microsoft", "zvelo",
     "gravatar", "kali", "amazon", "chatgpt", "bing", "msn",
-    "in-addr.arpa","yahoo","twitter","github","virustotal"
+    "in-addr.arpa","yahoo","twitter","github","virustotal","wordpress"
 }
 
 API_KEYS = [
